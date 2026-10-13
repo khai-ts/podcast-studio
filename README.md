@@ -18,12 +18,12 @@ generated background as `my_clip_bg_plate.png`.
 Paste the repo link, your footage and a prompt, for example:
 
 ```
-https://github.com/<owner>/greenscreen-ai-background  C:\Videos\take3.mp4  cozy studio with warm lamps and bookshelves
+https://github.com/khai-ts/podcast-studio  C:\Videos\take3.mp4  cozy studio with warm lamps and bookshelves
 ```
 
 > **Claude, if you were given this link:** follow these steps exactly.
 >
-> 1. Clone the repo into `~/greenscreen-ai-background`, or `git pull` it if that folder already exists.
+> 1. `git clone https://github.com/khai-ts/podcast-studio ~/greenscreen-ai-background`, or `git pull` in that folder if it already exists.
 > 2. `python -m pip install -r requirements.txt` inside it.
 > 3. Run `python greenscreen_bg.py --check`. If the key check fails, stop and tell the user to set
 >    the `COMFY_CLOUD_API_KEY` user environment variable (Comfy Cloud → Settings → API keys;
